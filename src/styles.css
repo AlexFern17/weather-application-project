@@ -1,0 +1,65 @@
+body{
+    background: #EBCBF9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: block;
+    border: none;
+    border-radius: 8px;
+    background: #ffffff;
+    max-width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+.citySearch{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    padding: 30px;
+}
+.citySearch input{
+    font-size: 18px;
+    border: none;
+}
+
+.submitSearch{
+    padding: 20px;
+    background-color: #EBCBF9;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.submitSearch:hover{
+    background: #B263D2;
+    cursor: pointer;
+}
+
+.currentWeather, h1, p {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+main div p {
+    color: #817E82;
+}
+
+h1, .temp {
+    font-size: 48px;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+footer p, a{
+    font-size: 13px;
+    color: #CCB7D6;
+}
+
